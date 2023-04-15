@@ -1,0 +1,200 @@
+[{
+        "category_name": "Salads",
+        "title": "Salads",
+        "abbreviation": "salads",
+        "emoji": "🥗",
+        "items": [{
+                "title": "Raw Salad",
+                "description": "Mixed greens, red cabbage, tomatoes, onions, carrots, and walnuts topped with a spicy kimchi. Served with homemade vinaigrette."
+            },
+            {
+                "title": "Cranberry Salad",
+                "description": "Mixed greens, tomato, onions, carrots, avocado and apples. Served with homemade vinaigrette."
+            },
+            {
+                "title": "House Salad",
+                "description": "Mixed greens, red cabbage, tomato, onions, carrots and avocado. Served with our homemade vinaigrette."
+            }
+        ]
+    },
+    {
+        "category_name": "Sandwiches, Burgers & Wraps",
+        "title": "Sandwiches, Burgers & Wraps",
+        "abbreviation": "sbw",
+        "emoji": "🥪🍔🌯",
+        "items": [{
+                "title": "Chickpea and Avocado Sandwich",
+                "description": "This chickpea and avocado sandwich is packed with protein and full of cilantro, celery, dill, green onion and lime. Served with organic corn chips."
+            },
+            {
+                "title": "BBQ Cauliflower Sandwich",
+                "description": "Oven-baked cauliflower breaded in rice crumbs and smothered in house BBQ sauce served with slaw on choice of bread. Served with organic blue chips."
+            },
+            {
+                "title": "Corn & Peas Sandwich",
+                "description": "A delicious assortment of green peas, golden corns and crunchy dices of carrot , blended in a creamy mixture of v-mayo sauce."
+            },
+            {
+                "title": "Reuben Sandwich with Cashew Cheese",
+                "description": "These Veggie Reuben Sandwiches are made with cashew cheese, sauerkraut and crisp veggies, all layered on pumpernickel bread. Served with organic corn chips."
+            },
+            {
+                "title": "Leafy's Burger",
+                "description": "A sweet potato, French lentil and kale burger, topped with avocado, tomato, mixed greens and onions, served with our cilantro-curry mayo on a square parker bun. Served with organic corn chips"
+            },
+            {
+                "title": "The Tuna Sandwich",
+                "description": "Jackfruit and chickpeas v-tuna salad, fresh organic spices, carrots, celery, served with mixed greens, tomato, avocado, onions and melted v-cheddar cheese on choice of bread. Served with organic corn chips."
+            },
+            {
+                "title": "Beyond Beef Burger",
+                "description": "Burger prepared to honor its mythical meaty predecessor topped with sauteed onions, mixed greens, tomato, avocado, v-mayo, and our special sauce. Served with organic corn chips."
+            },
+            {
+                "title": "The Veggie Wrap",
+                "description": "Organic greens, tomato, avocado, mozzarella style V-cheeze, veggies with our homemade vinaigrette rolled in a warm spinach wrap."
+            },
+            {
+                "title": "Mexican Patty Wrap",
+                "description": "A refreshing filling of red and black kidney beans patty, topped with aromatic Mexican seasoning to spice up your palette."
+            },
+            {
+                "title": "Bandito Loco Wrap",
+                "description": "Spicy chorizo, sauteed veggies topped with salsa, and melted mozzarella-style V-cheeze. Served in a warm spinach wrap with fresh greens, tomato, avocado and a touch of creamy vinaigrette."
+            }
+        ]
+    },
+    {
+        "category_name": "Smoothies",
+        "title": "Smoothies",
+        "abbreviation": "smoothies",
+        "emoji": "🥛",
+        "items": [{
+                "title": "Smoothie 1",
+                "description": "Blueberry, mango, banana and coconut milk."
+            },
+            {
+                "title": "Smoothie 2",
+                "description": "Blueberry, bananas, walnuts and cinnamon."
+            },
+            {
+                "title": "Smoothie 3",
+                "description": "Banana, orange, mango and apple."
+            },
+            {
+                "title": "Smoothie 4",
+                "description": "Banana, cacao, spirulina, almond butter and almond milk."
+            },
+            {
+                "title": "Smoothie 5",
+                "description": "Peanut butter, banana, spinach, maca and almond milk."
+            },
+            {
+                "title": "Smoothie 6",
+                "description": "Strawberry, blueberry, apple and coconut milk."
+            },
+            {
+                "title": "Smoothie 7",
+                "description": "Dates, bananas, coconut, cacao and almond milk."
+            },
+            {
+                "title": "Smoothie 8",
+                "description": "Strawberry, banana, almond butter and almond milk."
+            },
+            {
+                "title": "Custom Smoothie",
+                "description": "Just add what you like. We'll blend it up for you."
+            }
+        ]
+    },
+    {
+        "category_name": "Waffle's",
+        "title": "Waffle's",
+        "abbreviation": "waffle",
+        "emoji": "🧇",
+        "items": [{
+                "title": "Plain Waffle",
+                "description": "Served with butter and pure maple syrup."
+            },
+            {
+                "title": "Banana Walnut Waffle",
+                "description": "Served with butter and pure maple syrup."
+            },
+            {
+                "title": "Coconut Waffle",
+                "description": "Served with butter and pure maple syrup."
+            },
+            {
+                "title": "Apple Cinnamon Waffle",
+                "description": "Served with butter and pure maple syrup."
+            },
+            {
+                "title": "Blueberry Waffle",
+                "description": "Served with butter and pure maple syrup."
+            },
+            {
+                "title": "Strawberry Waffle",
+                "description": "Served with butter and pure maple syrup."
+            },
+            {
+                "title": "Cherry Almond Waffle",
+                "description": "Served with butter and pure maple syrup."
+            },
+            {
+                "title": "Vanilla Waffle",
+                "description": "Served with vanilla icecream, butter and pure maple syrup."
+            }
+        ]
+    },
+    {
+        "category_name": "Juices",
+        "title": "The Juicy Farmacy",
+        "abbreviation": "juices",
+        "emoji": "🥤🍹",
+        "items": [{
+                "title": "Immune Boost Juice",
+                "description": "Carrot, apple, celery and spinach."
+            },
+            {
+                "title": "Orange You Glad Juice",
+                "description": "Carrot and orange."
+            },
+            {
+                "title": "Keep the Dr Away Juice",
+                "description": "Carrot, apple, lemon and ginger."
+            },
+            {
+                "title": "Flu Fighter Juice",
+                "description": "Carrot, orange, apple, lemon, cayenne and garlic."
+            },
+            {
+                "title": "Stress Away Juice",
+                "description": "Carrot, spinach, apple, ginger, cinnamon and cardamon."
+            },
+            {
+                "title": "Health Liver Juice",
+                "description": "Parsley, ginger, beet and carrot."
+            },
+            {
+                "title": "Skin Glow",
+                "description": "Beet, carrot, apple, ginger and lemon."
+            },
+            {
+                "title": "Go Green Juice",
+                "description": "All greens, apple, lemon and ginger."
+            },
+            {
+                "title": "Perfect Green Juice",
+                "description": "Spinach, kale, apple, celery and cucumber."
+            },
+            {
+                "title": "Cleansing Juice",
+                "description": "Carrot, apple, parsley, celery, spinach and ginger."
+            },
+            {
+                "title": "Immune System Juice",
+                "description": "All greens, apple, lemon, ginger and wheatgrass."
+            }
+        ]
+    }
+]
