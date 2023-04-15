@@ -1,0 +1,9 @@
+body.disclaimer_attribute .disclaimer p,
+body.disclaimer_attribute .attributes p {
+    width: 80%;
+}
+
+body.disclaimer_attribute .attributes ul {
+    padding: 1rem 0;
+    list-style: none;
+}

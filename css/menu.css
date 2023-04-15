@@ -1,0 +1,83 @@
+.menu-section {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.salads-section {
+    background-image: url(../assets/img/salad_landscape.jpg);
+}
+
+.sbw-section {
+    background-image: url(../assets/img/sbw_landscape.jpg);
+}
+
+.smoothies-section {
+    background-image: url(../assets/img/smoothies_landscape.jpg);
+}
+
+.waffle-section {
+    background-image: url(../assets/img/waffle_landscape.jpg);
+}
+
+.juices-section {
+    background-image: url(../assets/img/juices_landscape.jpg);
+}
+
+.menu-container {
+    position: relative;
+    top: 50vh;
+    background-color: #ffffff;
+    width: 100%;
+    min-height: 70vh;
+    color: var(--dark);
+    margin-bottom: 50vh;
+}
+
+.menu-content {
+    max-width: 700px;
+    padding: 2rem 3rem;
+    margin: 0 auto;
+}
+
+.menu-content ul {
+    list-style: none;
+    width: 80%;
+}
+
+.menu-content ul li {
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.menu-container .bg-art {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.menu-container .bg-art>img {
+    height: 8rem;
+}
+
+@media (orientation: portrait) {
+    .salads-section {
+        background-image: url(../assets/img/salad_portrait.jpg);
+    }
+
+    .sbw-section {
+        background-image: url(../assets/img/sbw_portrait.jpg);
+    }
+
+    .smoothies-section {
+        background-image: url(../assets/img/smoothies_portrait.jpg);
+    }
+
+    .waffle-section {
+        background-image: url(../assets/img/waffle_portrait.jpg);
+    }
+
+    .juices-section {
+        background-image: url(../assets/img/juices_portrait.jpg);
+    }
+}

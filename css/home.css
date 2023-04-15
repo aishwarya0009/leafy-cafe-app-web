@@ -1,0 +1,222 @@
+.home header {
+    overflow: hidden;
+    height: 100vh;
+}
+
+header .background0 {
+    background-image: url(../assets/img/background_landscape0.jpg);
+}
+
+header .background1 {
+    background-image: url(../assets/img/background_landscape1.jpg);
+}
+
+header .background2 {
+    background-image: url(../assets/img/background_landscape2.jpg);
+}
+
+header .background3 {
+    background-image: url(../assets/img/background_landscape3.jpg);
+}
+
+.header_background_video {
+    position: absolute;
+    width: 100%;
+    transition: 0.7s;
+}
+
+.home header .content {
+    background-color: rgb(77, 67, 60, 0.7);
+}
+
+.quote {
+    position: absolute;
+    transition: 0.7s;
+    opacity: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.active-quote {
+    opacity: 1;
+}
+
+.quote h1 {
+    color: var(--white);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+body.home main section {
+    position: relative;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+body.home main section a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body.home main section span a {
+    display: inline-block;
+    padding: 0.7rem 2rem;
+}
+
+body.home main section p a:hover {
+    text-decoration: underline;
+}
+
+body.home main section .background {
+    position: absolute;
+    top: 10%;
+    width: 75%;
+    height: 80%;
+    background-size: cover;
+    box-shadow: 0 0 1rem black;
+}
+body.home main section .background img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 8rem;
+    width: 12%;
+    filter: invert(0.2);
+}
+
+body.home main section .background img.left-img{
+    top: 0;
+    left: 0;
+    transform: translateX(0%);
+    width: unset;
+    max-width: 80%;
+    max-height: 30%;
+}
+body.home main section .left {
+    background-image: url("../assets/img/texture-light.jpg");
+    left: 0px;
+}
+
+body.home main section .right {
+    background-image: url("../assets/img/dark-board.jpg");
+    /* filter: grayscale(0.81); */
+    filter: grayscale(0.7) brightness(0.7);
+    right: 0px;
+}
+
+
+body.home main section .content {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(0%, -50%);
+    color: var(--dark);
+    max-height: 75%;
+    width: 35%;
+    overflow-y: auto;
+}
+
+body.home main section .content h1 {
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 5rem;
+}
+
+body.home main section .content p {
+    font-size: 1.5rem;
+}
+
+body.home main section .content span {
+    border: 2px solid var(--dark);
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: linear-gradient(to right, var(--white) 50%, rgba(0, 0, 0, 0) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+
+body.home main section .content span:hover {
+    background-position: left bottom;
+    color: var(--dark);
+}
+
+body.home main section .dark {
+    color: var(--white);
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+}
+
+body.home main section .dark h1,
+body.home main section .dark span {
+    border-color: var(--white);
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .header_background_video {
+        height: 300%;
+        top: -100%;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .header_background_video {
+        width: 300%;
+        left: -100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header_background_video {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body.home main section .left {
+        width: 100%;
+        height: 100%;
+        top: 0px;
+    }
+
+    body.home main section .content {
+        top: 50%;
+        left: 0%;
+        transform: translate(0%, -50%);
+        height: auto;
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    body.home main section .content h1 {
+        font-size: 3rem;
+    }
+
+    body.home main section .content p {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media (orientation: portrait) {
+    header .background0 {
+        background-image: url(../assets/img/background_portrait0.jpg);
+    }
+
+    header .background1 {
+        background-image: url(../assets/img/background_portrait1.jpg);
+    }
+
+    header .background2 {
+        background-image: url(../assets/img/background_portrait2.jpg);
+    }
+
+    header .background3 {
+        background-image: url(../assets/img/background_portrait3.jpg);
+    }
+}
